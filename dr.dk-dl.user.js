@@ -7,6 +7,8 @@
 // @match        https://www.dr.dk/tv/se/*/*/*/*
 // @grant        GM_xmlhttpRequest
 // @license
+// @updateURL    https://github.com/Jeni4/dr.dk-dl/raw/master/dr.dk-dl.user.js
+// @downloadURL  https://github.com/Jeni4/dr.dk-dl/raw/master/dr.dk-dl.user.js
 // ==/UserScript==
 
 var script = ['https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.js',
