@@ -1,8 +1,8 @@
 # dr.dk-dl
 
 Tools to download .ts files:
-- wget: wget -i filename.txt
-- curl: cat filename.txt | xargs -n 1 curl -LO
+- wget: wget -i filename.txt (windows/linux/osx)
+- curl: cat filename.txt | xargs -n 1 curl -LO (linux/osx)
 
 ## Merge ts files
 
