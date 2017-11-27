@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         dr.dk-dl
 // @namespace    https://github.com/Jeni4/dr.dk-dl
-// @version      1.0.1
+// @version      1.0.2
 // @description
-// @author       Jeni4
+// @author       netravnen
 // @match        https://www.dr.dk/tv/se/*/*/*/*
 // @grant        GM_xmlhttpRequest
 // @license
@@ -11,6 +11,9 @@
 // @downloadURL  https://github.com/netravnen/dr.dk-dl/raw/master/dr.dk-dl.user.js
 // ==/UserScript==
 /*
+2017-11-27 v1.0.2
+- Fix: wrong @author due to change of gh username
+
 2017-11-27 v1.0.1
 - Fix: broken @updateURL due to change of gh username
 - Fix: broken @downloadURL due to change of gh username
