@@ -1,15 +1,23 @@
 // ==UserScript==
 // @name         dr.dk-dl
 // @namespace    https://github.com/Jeni4/dr.dk-dl
-// @version      1.0
+// @version      1.0.1
 // @description
 // @author       Jeni4
 // @match        https://www.dr.dk/tv/se/*/*/*/*
 // @grant        GM_xmlhttpRequest
 // @license
-// @updateURL    https://github.com/Jeni4/dr.dk-dl/raw/master/dr.dk-dl.user.js
-// @downloadURL  https://github.com/Jeni4/dr.dk-dl/raw/master/dr.dk-dl.user.js
+// @updateURL    https://github.com/netravnen/dr.dk-dl/raw/master/dr.dk-dl.user.js
+// @downloadURL  https://github.com/netravnen/dr.dk-dl/raw/master/dr.dk-dl.user.js
 // ==/UserScript==
+/*
+2017-11-27 v1.0.1
+- Fix: broken @updateURL due to change of gh username
+- Fix: broken @downloadURL due to change of gh username
+
+2016-10-30 v1.0
+- Initial release
+*/
 
 var script = ['https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.js',
               'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment-with-locales.min.js'];
